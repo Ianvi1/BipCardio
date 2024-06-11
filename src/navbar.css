@@ -2,9 +2,10 @@
   .MobileBar {
     background-color: #151820;
     position: absolute;
-    top: 98%;
+    top: 94.5%;
     width: 100%;
-    border: 2px solid #FFF;
+    position:fixed;
+    z-index:999;
 }
 
 ul {
@@ -13,11 +14,16 @@ ul {
   align-items: center;
   padding: 10px;
   outline: none;
+  margin: 0;
 }
 
 li {
   list-style: none;
   
+}
+
+.navbar .active a {
+  color: #3ce2fb;
 }
 
 }

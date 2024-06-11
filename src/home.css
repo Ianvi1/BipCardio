@@ -47,3 +47,44 @@ h2 {
   background:none;
   
 }
+
+.Card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 100px;
+  background-image: url('../public/cardmassagem.jpg');
+  background-size: cover;
+  background-position: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  right: 25%;
+  bottom: 40%;
+  overflow: hidden;
+  margin-top: 20px;
+
+}
+
+.Card2h2 {
+  margin-left: 25px;
+}
+
+.Card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 100px;
+  background-image: url('../public/cardyoga.jpg');
+  background-size: cover;
+  background-position: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  position: absolute;
+  left: 25%;
+  bottom: 20%;
+  overflow: hidden;
+  margin-top: 20px;
+}

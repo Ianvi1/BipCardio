@@ -1,0 +1,48 @@
+.MeditImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-image: url('../public/cardimg1.jpg');
+  background-size: cover;
+  background-position: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 2;
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  background: none;
+}
+
+.cardExer {
+  width: 343px;
+  height: 60px;
+  background-color: #116b96;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cardText {
+  text-align: center;
+  font-weight: 300;
+}
+
+.ReturnArrow {
+  position: absolute;
+  bottom: 10%;
+  box-shadow: none;
+  right: 30%;
+}
