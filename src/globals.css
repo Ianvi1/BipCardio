@@ -1,0 +1,9 @@
+* {  
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  scroll-behavior: smooth;
+  
+}

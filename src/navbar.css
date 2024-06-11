@@ -1,0 +1,23 @@
+@media screen and (max-width: 425px) {
+  .MobileBar {
+    background-color: #151820;
+    position: absolute;
+    top: 98%;
+    width: 100%;
+    border: 2px solid #FFF;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  outline: none;
+}
+
+li {
+  list-style: none;
+  
+}
+
+}
