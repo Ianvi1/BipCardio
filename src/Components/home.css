@@ -34,19 +34,19 @@
 }
 
 .Card1::before {
-  background-image: url('../public/cardmeditacao.jpg');
+  background-image: url('/public/cardmeditacao.jpg');
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 
 .Card2::before {
-  background-image: url('../public/cardmassagem.jpg');
+  background-image: url('/public/cardmassagem.jpg');
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
 .Card3::before {
-  background-image: url('../public/cardyoga.jpg');
+  background-image: url('/public/cardyoga.jpg');
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
