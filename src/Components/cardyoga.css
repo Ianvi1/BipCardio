@@ -1,0 +1,144 @@
+.cardTitle {
+  width: 100%;
+  height: 100px;
+  background-color: #151820;
+  border-bottom: 1px solid #131413;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  box-shadow: 3px 4.5px 15px rgba(0,0,0,0.3);
+}
+
+.cardTitleText {
+  margin: 0; 
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFF;
+  text-transform: uppercase;
+  background: none;
+  letter-spacing: 5px;
+}
+
+
+h2 {
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 2;
+  text-align: center;
+}
+
+.cardDescText {
+  position: absolute;
+  top: 17%;
+  font-size: 17px;
+  font-weight: 200;
+  background: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 20px;
+}
+
+.cardTaskBlue {
+  position: absolute;
+  width:343px;
+  height: 60px;
+  background-color: #006fa3;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  left: 10%;
+  top: 30%;
+}
+
+
+.cardText {
+  text-align: center;
+  font-weight: 300;
+  background: none;
+  font-size: 18px;
+}
+
+.cardExer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:  absolute;
+  left: 12%;
+  bottom: 48%;
+  width: 250px;
+  height: 70px;
+  background-color: #0e121c;
+  border-radius: 6px;
+}
+
+.cardExer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:  absolute;
+  left: 12%;
+  bottom: 35%;
+  width: 250px;
+  height: 70px;
+  background-color: #0e121c;
+  border-radius: 6px;
+}
+
+.cardExer3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:  absolute;
+  left: 12%;
+  bottom: 22%;
+  width: 250px;
+  height: 70px;
+  background-color: #0e121c;
+  border-radius: 6px;
+}
+
+.cardExerTitle {
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+  color:#fcfcfc;
+  text-align: left;
+  padding-bottom: 15px;
+  padding-left: 12px;
+}
+
+.cardExerDesc {
+  background: none;
+  font-size: 13px;
+  font-weight: 300;
+  color:#8d8d8d;
+  text-align: left;
+  padding-left: 1.3rem;
+}
+
+.cardBarColorBlue {
+  width: 10px;
+  height: 70px;
+  background-color: #00aeff;
+}
+
+
+.ReturnArrow {
+  position: absolute;
+  bottom: 10%;
+  box-shadow: none;
+  right: 30%;
+}
+
+.MeditationIcon {
+  background: none;
+  position: absolute;
+  left: 15%;
+}
+
+.ArrowIcon {
+  background: none;
+  position: absolute;
+  left: 40%;
+}

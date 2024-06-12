@@ -1,11 +1,14 @@
-import Start from "./Start";
-import Home from "./Home";
+import Start from "./Components/Start";
+import Home from "./Components/Home";
 import './globals.css';
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import Navbar from "./Navbar";
-import CardMedit from "./CardMedit";
-import SobreDisp from "./SobreDisp";
+import Navbar from "./Components/Navbar";
+import CardMedit from "./Components/CardMedit";
+import SobreDisp from "./Components/SobreDisp";
+import CardMass from "./Components/CardMass";
+import CardYoga from "./Components/CardYoga";
+import AboutUs from "./Components/AboutUs";
 
 const App = () => {
   return (
@@ -17,7 +20,10 @@ const App = () => {
         <Route path="/home" element={<Home/>} />
         <Route path="/navbar"  element={<Navbar/>} />
         <Route path="/cardmedit" element={<CardMedit/>} />
+        <Route path="/cardmass" element={<CardMass/>} />
+        <Route path="/cardyoga" element={<CardYoga/>} />
         <Route path="/sobredisp" element={<SobreDisp/>} />
+        <Route path="/sobrenos"  element={<AboutUs/>} />
       </Routes>
       </div>
     </Router>
