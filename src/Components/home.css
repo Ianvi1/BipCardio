@@ -114,3 +114,12 @@
 .cardButton {
   text-decoration: none;
 }
+
+@media screen and (max-width: 375px) {
+
+.textHome {
+  position: absolute;
+  bottom: 10%;
+  font-size: 15px;
+}
+ }

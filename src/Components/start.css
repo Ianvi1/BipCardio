@@ -70,3 +70,12 @@ p {
   }
   
 }
+
+@media screen and (max-width: 375px) {
+
+ .StartText {
+   position: absolute;
+   bottom: 15%;
+   background: none;
+ }
+}

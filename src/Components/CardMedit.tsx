@@ -7,7 +7,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 
 const CardMedit = () => {
   return (
-    <div className='content'>
+    <body>
       <div className='cardTitle'>
          <h1 className='cardTitleText'>Meditação</h1>  
       </div>
@@ -35,7 +35,7 @@ const CardMedit = () => {
        </div>
       <Link to="/home" className="ReturnArrow"><IoIosArrowBack color="#FFF" size={44}/> </Link>
       <Navbar/>
-    </div>
+    </body>
   )
 }
 
