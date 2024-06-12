@@ -7,7 +7,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 
 const CardMedit = () => {
   return (
-    <div>
+    <div className='content'>
       <div className='cardTitle'>
          <h1 className='cardTitleText'>Massagem</h1>  
       </div>
