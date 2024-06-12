@@ -1,3 +1,4 @@
+@media screen and (max-width: 425px) {
 
 
 .Card1, .Card2, .Card3 {
@@ -114,4 +115,6 @@
 
 .cardButton {
   text-decoration: none;
+}
+
 }

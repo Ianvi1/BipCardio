@@ -7,4 +7,6 @@
   scroll-behavior: smooth;
   background-color: #12151c;
   overflow: hidden;
+  height: 100%;
+  position:fixed;
 }
