@@ -15,12 +15,14 @@ const CardMedit = () => {
        <div className='cardTask1'>
         <p className='cardText1'>Veja quais exercícios abaixo de meditação você deseja ver:</p>
        </div>
+       <Link to="/meditexer1" className='cardButton'>
        <div className='cardExer'>
           <div className='cardBarColor'></div>
           <h3 className='cardExerTitle'>Exercicio 1:</h3>
           <p className='cardExerDesc'>Descrição legal</p>
           <IoMdArrowDropright className='ArrowIcon' size={24} color='#F1f1f1'/>
        </div>
+       </Link>
        <div className='cardExer2'>
           <div className='cardBarColor'></div>
           <h3 className='cardExerTitle'>Exercicio 2:</h3>

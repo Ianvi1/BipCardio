@@ -9,6 +9,7 @@ import SobreDisp from "./Components/SobreDisp";
 import CardMass from "./Components/CardMass";
 import CardYoga from "./Components/CardYoga";
 import AboutUs from "./Components/AboutUs";
+import MeditExer1 from "./Components/MeditExer1";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/cardyoga" element={<CardYoga/>} />
         <Route path="/sobredisp" element={<SobreDisp/>} />
         <Route path="/sobrenos"  element={<AboutUs/>} />
+        <Route path="/meditexer1"  element={<MeditExer1/>} />
       </Routes>
       </div>
     </Router>
