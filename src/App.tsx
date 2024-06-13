@@ -10,6 +10,8 @@ import CardMass from "./Components/CardMass";
 import CardYoga from "./Components/CardYoga";
 import AboutUs from "./Components/AboutUs";
 import MeditExer1 from "./Components/MeditExer1";
+import MeditExer2 from "./Components/MeditExer2";
+import MeditExer3 from "./Components/MeditExer3";
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
         <Route path="/sobredisp" element={<SobreDisp/>} />
         <Route path="/sobrenos"  element={<AboutUs/>} />
         <Route path="/meditexer1"  element={<MeditExer1/>} />
+        <Route path="/meditexer2"  element={<MeditExer2/>} />
+        <Route path="/meditexer3"  element={<MeditExer3/>} />
       </Routes>
       </div>
     </Router>

@@ -19,22 +19,26 @@ const CardMedit = () => {
        <div className='cardExer'>
           <div className='cardBarColor'></div>
           <h3 className='cardExerTitle'>Exercicio 1:</h3>
-          <p className='cardExerDesc'>Descrição legal</p>
+          <p className='cardExerDesc'>Meditação Guiada</p>
           <IoMdArrowDropright className='ArrowIcon' size={24} color='#F1f1f1'/>
        </div>
        </Link>
+       <Link to="/meditexer2" className='cardButton'>
        <div className='cardExer2'>
           <div className='cardBarColor'></div>
           <h3 className='cardExerTitle'>Exercicio 2:</h3>
-          <p className='cardExerDesc'>Descrição legal</p>
+          <p className='cardExerDesc'>Meditação com Mantras</p>
           <IoMdArrowDropright className='ArrowIcon' size={24} color='#F1f1f1'/>
-       </div>
+       </div>    
+       </Link>   
+       <Link to="/meditexer3" className='cardButton'>
        <div className='cardExer3'>
           <div className='cardBarColor'></div>
           <h3 className='cardExerTitle'>Exercicio 3:</h3>
-          <p className='cardExerDesc'>Descrição legal</p>
+          <p className='cardExerDesc'>Meditação Mindfulness</p>
           <IoMdArrowDropright className='ArrowIcon' size={24} color='#F1f1f1'/>
        </div>
+       </Link>     
       <Link to="/home" className="ReturnArrow1"><IoIosArrowBack color="#FFF" size={44}/> </Link>
       <Navbar/>
     </body>

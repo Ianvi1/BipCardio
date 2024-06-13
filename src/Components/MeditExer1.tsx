@@ -15,7 +15,7 @@ const MeditExer1 = () => {
           <div className='cardBarColorVideoRight1'></div>
         </div>
         <div className='VideoMeditArea1'>
-          <iframe max-width="280" height="200" className='VideoCfg' src="https://www.youtube.com/embed/uLVvZWL2FUg?controls=1&si=3JssU7EZmJQWNI4C" allowFullScreen allow="fullscreen"></iframe>
+          <iframe max-width="280" height="200" className='VideoCfg' src="https://www.youtube.com/embed/uLVvZWL2FUg?controls=1&si=3JssU7EZmJQWNI4C" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
           <p className='VideoMeditDescText1'>Meditação guiada: é uma técnica que envolve a formação de imagens e sensações mentais de lugares, de situações, de cheiros, sons, texturas durante o processo. </p>
         <Link to="/cardmedit" className="ReturnArrow1"><IoIosArrowBack color="#FFF" size={44}/> </Link>
