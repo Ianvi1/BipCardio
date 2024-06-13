@@ -15,24 +15,31 @@ const CardMedit = () => {
        <div className='cardTaskOrange'>
         <p className='cardText2'>Veja quais exercícios abaixo de massagem você deseja ver:</p>
        </div>
+       <Link to="/massexer1" className='cardButton'>
        <div className='cardExer'>
           <div className='cardBarColorOrange'></div>
           <h3 className='cardExerTitle'>Exercicio 1:</h3>
-          <p className='cardExerDesc'>Descrição legal</p>
+          <p className='cardExerDesc'>Automassagem</p>
           <IoMdArrowDropright className='ArrowIcon' size={24} color='#F1f1f1'/>
        </div>
+       </Link>    
+       <Link to="/massexer2" className='cardButton'>
        <div className='cardExer2'>
           <div className='cardBarColorOrange'></div>
           <h3 className='cardExerTitle'>Exercicio 2:</h3>
-          <p className='cardExerDesc'>Descrição legal</p>
+          <p className='cardExerDesc'>Acupressão</p>
           <IoMdArrowDropright className='ArrowIcon' size={24} color='#F1f1f1'/>
        </div>
+       </Link>    
+       <Link to="/massexer3" className='cardButton'>
        <div className='cardExer3'>
           <div className='cardBarColorOrange'></div>
           <h3 className='cardExerTitle'>Exercicio 3:</h3>
-          <p className='cardExerDesc'>Descrição legal</p>
+          <p className='cardExerDesc'>Reflexologia Podal</p>
           <IoMdArrowDropright className='ArrowIcon' size={24} color='#F1f1f1'/>
        </div>
+       </Link>   
+       
       <Link to="/home" className="ReturnArrow2"><IoIosArrowBack color="#FFF" size={44}/> </Link>
       <Navbar/>
     </div>

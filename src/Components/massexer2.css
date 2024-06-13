@@ -1,0 +1,107 @@
+.cardExerVideo5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  background-color: #0e121c;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.cardExerTitleVideo5 {
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+  color:#fcfcfc;
+  text-align: center;
+}
+
+.cardBarColorVideoLeft5 {
+  width: 5px;
+  height: 40px;
+  background-color: #ff9100;
+}
+
+.cardBarColorVideoRight5 {
+  width: 5px;
+  height: 40px; 
+  background-color: #ff9100;
+}
+
+.VideoMeditArea5 {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.VideoCfgOrange {
+  border-radius: 12px;
+  border: 1px solid #e88e19;
+}
+
+.VideoMeditDescText5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ajuste a largura conforme necessário */
+  background: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fcfcfc;
+  text-align: justify;
+  box-sizing: border-box; /* Garantir que o padding não afete a largura total */
+}
+
+
+@media screen and (max-width: 375px) {
+  .VideoMeditDescText5 {
+    position: absolute;
+    top: 40%;
+  }
+
+  .VideoMeditArea5 {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .VideoMeditArea5 {
+    width: 450px;
+    height: 250px;
+  }
+
+  .VideoMeditDescText5 {
+    position: absolute;
+    top: 40%;
+  }
+
+
+}
+
+@media screen and (max-width: 425px) {
+  .VideoMeditArea5 {
+    width: 350px;
+    height: 250px;
+  }
+
+  .VideoMeditDescText5 {
+    position: absolute;
+    top: 47%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 339px) {
+
+  .VideoMeditArea5 {
+    width: 300px;
+    height: 250px;
+  }
+
+}
