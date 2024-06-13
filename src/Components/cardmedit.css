@@ -157,3 +157,35 @@ h2 {
 
   }
 }
+
+@media screen and (max-width: 346px) {
+
+  .cardDescText1 {
+    font-size: 13px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .cardTask1 {
+   left: 6%;
+  }
+
+}
+  
+@media screen and (min-width: 425px) {
+
+  .cardExer,
+  .cardExer2,
+  .cardExer3 {
+    position: relative;
+    left: 20%;
+    transform: translateX(10%);
+  }
+  
+  .cardTask1 {
+    left: 10%;
+    transform: translateX(10%);
+  }
+}

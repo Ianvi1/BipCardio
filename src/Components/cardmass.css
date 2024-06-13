@@ -145,3 +145,26 @@ h2 {
   left: 40%;
 }
 
+
+@media screen and (min-width: 425px) {
+
+   .cardTaskOrange {
+    left: 14%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .cardTaskOrange {
+   left: 6%;
+  }
+
+}
+
+@media screen and (max-width: 346px) {
+
+  .cardDescText1 {
+    font-size: 13px;
+  }
+
+}

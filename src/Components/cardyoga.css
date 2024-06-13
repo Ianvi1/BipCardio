@@ -144,3 +144,27 @@ h2 {
   position: absolute;
   left: 40%;
 }
+
+
+@media screen and (min-width: 425px) {
+
+  .cardTaskBlue {
+   left: 14%;
+ }
+}
+
+@media screen and (max-width: 320px) {
+
+ .cardTaskBlue {
+  left: 6%;
+ }
+
+}
+
+@media screen and (max-width: 346px) {
+
+ .cardDescText3 {
+   font-size: 13px;
+ }
+
+}
