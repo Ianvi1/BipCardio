@@ -29,10 +29,10 @@ h2 {
   text-align: center;
 }
 
-.cardDescText {
+.cardDescText2 {
   position: absolute;
   top: 17%;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 200;
   background: none;
   padding-left: 10px;
@@ -42,7 +42,7 @@ h2 {
 
 .cardTaskOrange {
   position: absolute;
-  width:343px;
+  width:280px;
   height: 60px;
   background-color: #c16d00;
   border-bottom-left-radius: 15px;
@@ -52,11 +52,11 @@ h2 {
 }
 
 
-.cardText {
+.cardText2 {
   text-align: center;
   font-weight: 300;
   background: none;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .cardExer {
@@ -124,11 +124,13 @@ h2 {
 }
 
 
-.ReturnArrow {
+.ReturnArrow2 {
   position: absolute;
-  bottom: 10%;
+  bottom: 11%;
+  left: 11%;
+  height: 44px;
+  width: 44px;
   box-shadow: none;
-  right: 30%;
 }
 
 .MeditationIcon {

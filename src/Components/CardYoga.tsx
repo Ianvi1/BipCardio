@@ -11,9 +11,9 @@ const CardMedit = () => {
       <div className='cardTitle'>
          <h1 className='cardTitleText'>Yoga</h1>  
       </div>
-      <p className='cardDescText'>O yoga é benéfico para muitas coisas, na questão da ansiedade, ajuda a levar a sua atenção para o momento presente, para que cada um repare na sua respiração, observando seu corpo e mente.</p>
+      <p className='cardDescText3'>O yoga é benéfico para muitas coisas, na questão da ansiedade, ajuda a levar a sua atenção para o momento presente, para que cada um repare na sua respiração, observando seu corpo e mente.</p>
        <div className='cardTaskBlue'>
-        <p className='cardText'>Veja quais exercícios abaixo de yoga você deseja ver:</p>
+        <p className='cardText3'>Veja quais exercícios abaixo de yoga você deseja ver:</p>
        </div>
        <div className='cardExer'>
           <div className='cardBarColorBlue'></div>
@@ -33,7 +33,7 @@ const CardMedit = () => {
           <p className='cardExerDesc'>Descrição legal</p>
           <IoMdArrowDropright className='ArrowIcon' size={24} color='#F1f1f1'/>
        </div>
-      <Link to="/home" className="ReturnArrow"><IoIosArrowBack color="#FFF" size={44}/> </Link>
+      <Link to="/home" className="ReturnArrow3"><IoIosArrowBack color="#FFF" size={44}/> </Link>
       <Navbar/>
     </div>
   )
