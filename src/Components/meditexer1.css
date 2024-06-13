@@ -53,16 +53,47 @@
 
   .VideoMeditDescText1 {
     position: absolute;
-    top: 56%;
-    text-align: justify;
-    width: 350px;
-    height: 150px;
+    top: 55%;
+    width: 300px;
     background: none;
     font-size: 15px;
     font-weight: 300;
     color:#fcfcfc;
-    text-align: center;
+    text-align: justify;
     margin: 0;
   }
 
 
+  @media screen and (max-width: 375px) {
+
+    .VideoMeditDesc1 {
+      margin-top: 100px;
+    }
+
+    .VideoMeditDescText1 {
+      margin-top: 80px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .VideoMeditArea1 {
+      width: 450px;
+      height: 250px;
+    }
+    .VideoMeditDesc1 {
+      margin-top:52px;
+    }
+
+    .VideoMeditDescText1 {
+      margin-top: 80px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .VideoMeditArea1 {
+      width: 350px;
+      height: 250px;
+    }
+  }
