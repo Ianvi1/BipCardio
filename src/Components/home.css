@@ -122,4 +122,46 @@
   bottom: 10%;
   font-size: 15px;
 }
+
  }
+
+
+ @media screen and (min-width: 600px) {
+
+  .textHome {
+    position: absolute;
+    bottom: 15%;
+    font-size: 17px;
+  }
+
+  .Card1, .Card2, .Card3 {
+
+    min-width: 600px;
+    height: 100px;
+ 
+  }
+
+  .Card1h2, .Card2h2, .Card3h2 {
+
+    text-align: center;
+    
+  }
+
+}
+
+@media screen and (min-width: 425px) {
+
+  .textHome {
+    position: absolute;
+    bottom: 15%;
+    font-size: 17px;
+  }
+
+  .Card1, .Card2, .Card3 {
+
+    width: 440px;
+    height: 100px;
+
+  }
+
+}
