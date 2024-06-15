@@ -18,6 +18,7 @@ import MassExer3 from "./Components/MassExer3";
 import YogaExer1 from "./Components/yogaExer1";
 import YogaExer2 from "./Components/YogaExer2";
 import YogaExer3 from "./Components/YogaExer3";
+import Apr1 from "./Components/Apr1";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
         <Route path="/yogaexer1" element={<YogaExer1/>} /> 
         <Route path="/yogaexer2" element={<YogaExer2/>} />
         <Route path="/yogaexer3" element={<YogaExer3/>} />
+        <Route path="/apr1" element={<Apr1/>} />
       </Routes>
       </div>
     </Router>

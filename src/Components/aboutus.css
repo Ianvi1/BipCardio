@@ -1,0 +1,78 @@
+.AboutUsArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.Logo {
+  width: 350px;
+  height: 350px;
+}
+
+
+.AboutUsArea h1 {
+  font-size: 45px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.AboutUsTitle span {
+  color: #00ff38;
+}
+
+.AboutUsText {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.AboutUsText span {
+  color: #00ff38;
+}
+
+.ButtonPress1 {
+  height: 48px;
+  width: 225px;
+  background-color: #006b58;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; 
+}
+
+@media screen and (max-width: 425px)  {
+
+  .Logo {
+    margin: 16px;
+  }
+
+  .AboutUsText {
+    font-size: 13px;
+   
+  }
+
+}
+
+@media screen and (min-width: 600px)  {
+
+ .AboutUsText{
+   width: 500px;
+ 
+ }
+
+ .ButtonPress1 {
+    position: absolute;
+    bottom: 18%;
+  }
+
+}
