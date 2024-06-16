@@ -10,10 +10,11 @@
   font-size: 26px;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 40px;
+
 }
 
 .ImageArea {
+  position: relative;
   width: 350px;
   height: 250px;
   background-color: #0e121c;
@@ -22,7 +23,8 @@
   align-items: center;
   border-radius: 12px;
   margin-top: 20px;
-}
+  margin-bottom: 30px;
+ }
 
 .ImageWhite {
   width: 270px;

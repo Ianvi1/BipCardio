@@ -41,6 +41,9 @@
 }
 
 .VideoMeditDescText9 {
+  position: relative;
+  margin-top: 50px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,12 +60,14 @@
 @media screen and (max-width: 375px) {
   .VideoMeditDescText9 {
     position: absolute;
-    top: 40%;
+    top: 45%;
+    
   }
 
   .VideoMeditArea9 {
     width: 250px;
     height: 150px;
+    position: relative;
   }
 }
 
