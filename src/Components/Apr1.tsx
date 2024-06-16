@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import './apr1.css';
-import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import {Link} from 'react-router-dom';
 
 const Apr1 = () => {
@@ -17,6 +17,7 @@ const Apr1 = () => {
       </div>
       <Navbar/>
       <Link to="/home" className="ReturnArrow3"><IoIosArrowBack color="#FFF" size={44}/> </Link>
+      <Link to="/apr2" className="NextArrow3"><IoIosArrowForward color="#FFF" size={44}/> </Link>
     </div>
   )
 }
