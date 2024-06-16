@@ -15,6 +15,7 @@ const AboutUs = () => {
        </div>
       </div>
       <Navbar />
+      
     </div>
   )
 }

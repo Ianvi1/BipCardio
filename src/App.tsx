@@ -24,6 +24,8 @@ import Apr3 from "./Components/Apr3";
 import Apr4 from "./Components/Apr4";
 import Apr5 from "./Components/Apr5";
 import Apr6 from "./Components/Apr6";
+import SdCarc from "./Components/SdCarc";
+import Manual1 from "./Components/Manual1";
 
 const App = () => {
   return (
@@ -54,6 +56,8 @@ const App = () => {
         <Route path="/apr4" element={<Apr4/>} />
         <Route path="/apr5" element={<Apr5/>} />
         <Route path="/apr6" element={<Apr6/>} />
+        <Route path="/sdcarc" element={<SdCarc/>} />
+        <Route path="/manual1" element={<Manual1/>} />
       </Routes>
       </div>
     </Router>

@@ -1,0 +1,169 @@
+.CarouselManualArea {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 60px; 
+  padding: 40px; 
+}
+
+.CarouselManualArea::-webkit-scrollbar {
+  display: none;
+}
+
+.ManualArea1,
+.ManualArea2,
+.ManualArea3,
+.ManualArea4,
+.ManualArea5 {
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 350px; 
+  height: 450px;
+  background-color: #0e121c;
+  border-radius: 12px;
+  scroll-snap-align: center; 
+  margin-top: 40px;
+}
+
+.ImageManual1 {
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 8px;
+}
+
+.ImageManual2 {
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 8px;
+  position: absolute;
+  top: 24%;
+}
+
+.ImageManual4 {
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 8px;
+  position: absolute;
+  top: 26%;
+}
+
+
+.NameTitle1, .NameTitle2, .NameTitle3, .NameTitle4, .NameTitle5 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  background: none;
+  position: absolute;
+  top: 5%;
+}
+
+.NameTitle2, .NameTitle3 {
+ font-size: 25px;
+}
+
+
+
+.DescManual1, .DescManual2, .DescManual3, .DescManual4, .DescManual5, .DescManual6, .DescManual7, .DescManual8, .DescManual9, .DescManual10, .DescManual11, .DescManual12, .DescManual13, .DescManual14, .DescManual15 {
+  position: absolute;
+  text-align: center;
+  background: none;
+  font-size: 14px;
+}
+
+.DescManual1 { margin-top: 20px; }
+.DescManual2 { bottom: 5%; }
+.DescManual3 { bottom: 14%; }
+.DescManual4 { bottom: 27%; }
+.DescManual5 { bottom: 40%; }
+.DescManual6 { bottom: 28%; }
+.DescManual7 { bottom: 33%; }
+.DescManual8 { bottom: 20%; }
+.DescManual9 { bottom: 8%; }
+.DescManual10 { bottom: 58%; }
+.DescManual11 { bottom: 48%; }
+.DescManual12 { bottom: 36%; }
+.DescManual13 { bottom: 24%; }
+.DescManual14 { bottom: 13%; }
+.DescManual15 { bottom: 5%; }
+
+.ReturnArrowSD, .NextArrowSD {
+  position: fixed;
+  bottom: 11%;
+  height: 44px;
+  width: 44px;
+  box-shadow: none;
+  z-index: 1;
+}
+
+.ReturnArrowSD { left: 11%; }
+.NextArrowSD { right: 11%; }
+
+
+/* circulos */
+
+.BarCircleView {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 3px solid #1c1c1c; /* Color for non-filled state */
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.Circle.filled {
+  background-color: #00f028; /* Color for filled state */
+}
+
+@media screen and (max-width: 375px) {
+
+  .ManualArea1,
+.ManualArea2,
+.ManualArea3,
+.ManualArea4,
+.ManualArea5 {
+  width: 300px;
+
+}
+
+.ImageManual1, .ImageManual2, .ImageManual4 {
+  height: 130px;
+  width:  220px;
+}
+
+.DescManual7, 
+.DescManual8,
+.DescManual9, 
+.DescManual10,   
+.DescManual11, 
+.DescManual12, 
+.DescManual13, 
+.DescManual14, 
+.DescManual15 {
+  font-size: 12px;
+}
+
+.Circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 3px solid #1c1c1c; /* Color for non-filled state */
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+
+}
