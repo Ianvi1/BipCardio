@@ -59,7 +59,7 @@
   margin-top: 60px;
  }
  
-@media screen and (max-width: 425px)  {
+@media screen and (max-width: 600px)  {
 
   .Logo {
     margin: 16px;
@@ -68,6 +68,10 @@
   .AboutUsText {
     font-size: 13px;
    
+  }
+
+  .AboutUsTitle {
+    padding-top: 20px;
   }
 
 }
@@ -79,6 +83,11 @@
  
  }
 
+.Logo  {
+  width: 400px;
+  height: 400px;
+}
+
  .AboutUsText {
   font-size: 14px;
 }
@@ -87,6 +96,10 @@
   position: relative;
   margin-top: 130px;
  }
+
+ .AboutUsTitle {
+  padding-top: 20px;
+}
 
 }
 

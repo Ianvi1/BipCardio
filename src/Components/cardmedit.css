@@ -189,3 +189,20 @@ h2 {
     transform: translateX(10%);
   }
 }
+
+
+@media screen and (min-width: 500px) {
+
+  .cardExer,
+  .cardExer2,
+  .cardExer3 {
+    position: relative;
+    margin-left: 3rem;
+  }
+  
+  .cardTask1 {
+    left: 20%;
+    transform: translateX(10%); 
+  }
+
+}

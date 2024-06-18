@@ -31,28 +31,38 @@
 }
 
 .ImageManual1 {
-  width: 250px;
-  height: 150px;
-  background-color: #FFF;
+  width: 160px;
+  height: 160px;
+  background-image: url('../../public/iconManual.png');
+  background-position: 100%;
+  background-size: cover;
   border-radius: 8px;
+  background-color: #0e121c;
 }
 
+
 .ImageManual2 {
-  width: 250px;
-  height: 150px;
-  background-color: #FFF;
+  width: 160px;
+  height: 160px;
+  background-image: url('../../public/icon2.png');
+  background-position: 100%;
+  background-size: cover;
   border-radius: 8px;
   position: absolute;
   top: 24%;
+  background-color: #0e121c;
 }
 
 .ImageManual4 {
-  width: 250px;
+  width: 160px;
   height: 150px;
-  background-color: #FFF;
+  background-color: #0e121c;
   border-radius: 8px;
   position: absolute;
   top: 26%;
+  background-image: url('../../public/icon3.png');
+  background-position: 100%;
+  background-size: cover;
 }
 
 
@@ -139,9 +149,9 @@
 
 }
 
-.ImageManual1, .ImageManual2, .ImageManual4 {
+ .ImageManual2, .ImageManual4 {
   height: 130px;
-  width:  220px;
+  width:  130px;
 }
 
 .DescManual7, 

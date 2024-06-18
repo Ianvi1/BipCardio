@@ -31,6 +31,7 @@ p {
 }
 
 .ButtonPress {
+  position: relative;
   height: 48px;
   width: 225px;
   background-color: #0d6884;
@@ -50,6 +51,16 @@ p {
   display: block; 
 
 }
+
+.textAlert {
+  font-size: 11px;
+  color: #858585;
+  position: absolute;
+  top: 1%;
+  background:none;
+  text-align: left;
+}
+
 
 @media screen and (max-width: 600px) {
   .contentStart {
@@ -71,11 +82,16 @@ p {
   
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 
  .StartText {
    position: absolute;
-   bottom: 15%;
+   bottom: 22%;
    background: none;
  }
+
+ .StartTitle {
+   padding-bottom: 40px;
+ }
 }
+
