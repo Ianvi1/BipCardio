@@ -27,9 +27,11 @@
  }
 
 .ImageWhite {
-  width: 270px;
-  height: 171px;
-  background-color: #FFF;
+  width: 222px;
+  height: 200px;
+  background-image: url('../../public/protimg.png');
+  background-position: center;
+  background-size: cover;
   border-radius: 15px;
 }
 

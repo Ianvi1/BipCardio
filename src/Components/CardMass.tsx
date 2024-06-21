@@ -11,7 +11,7 @@ const CardMedit = () => {
       <div className='cardTitle'>
          <h1 className='cardTitleText'>Massagem</h1>  
       </div>
-      <p className='cardDescText2'>A massagem traz o aumento de hormônios que causam bem-estar, melhora o humor, reduz o estresse e diminui o cortisol.</p>
+      <p className='cardDescText2'>A massagem traz o aumento de hormônios que causam bem-estar, melhora o humor e reduz o estresse.</p>
        <div className='cardTaskOrange'>
         <p className='cardText2'>Veja quais exercícios abaixo de massagem você deseja ver:</p>
        </div>
