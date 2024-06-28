@@ -11,7 +11,7 @@ const Apr5 = () => {
         <h1 className="NameTitle">Danyella <span className="Green">Marcelino</span> </h1>
         <div className="DescAreaApr">
           <p className="DescAreaAprText">
-..
+Me chamo Danyella, tenho 22 anos e Neste projeto, participei do desenvolvimento do conceito final do dispositivo e do aplicativo.
           </p>
         </div>
       </div>
